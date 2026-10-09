@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter backups
+.ipynb_checkpoints/
+
+# Data files
+data/*
+!data/.gitkeep
+
+# Trained models (rebuild them with src/train.py)
+models/*.pkl
+
+# Personal learning notes (not pushed)
+LEARNING.md
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
